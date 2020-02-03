@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "스크랩 보정",
+    "slug": "SchoolApp",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "facebookDisplayName": "SCHOOLAPP",
+    "facebookScheme": "fb462425434310174",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.2.8",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "facebookAppId": "462425434310174",
+    "notification": {
+      "icon": "./assets/pushIcon.png"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.schoolapp.schoolappuser",
+      "appStoreUrl": "https://itunes.apple.com/app/id1478149413",
+      "icon": "./assets/icon_ios.png",
+      "buildNumber": "1.2.8",
+      "infoPlist": {
+        "NSCameraUsageDescription": "스크랩에 업로드할 사진을 기기에서 촬영하기 위해 카메라를 사용합니다",
+        "NSPhotoLibraryUsageDescription": "스크랩에 업로드할 사진을 기기에서 가져오기 위해 갤러리에 접근합니다"
+      }
+    },
+    "android": {
+      "versionCode": 13,
+      "package": "com.schoolapp.schoolappuser",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.schoolapp.schoolappuser"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "js",
+        "jsx",
+        "ts",
+        "tsx",
+        "svg"
+      ]
+    }
+  }
+}
